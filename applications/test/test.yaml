@@ -22,4 +22,7 @@ spec:
           command:
             - echo
             - "hello"
+            - sleep
+            - 3600
           imagePullPolicy: IfNotPresent
+          restart: Never
