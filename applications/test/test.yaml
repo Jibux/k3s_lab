@@ -20,9 +20,6 @@ spec:
         - name: busybox
           image: busybox
           command:
-            - echo
-            - "hello"
             - sleep
-            - 3600
+            - "10000"
           imagePullPolicy: IfNotPresent
-          restart: Never
